@@ -18,6 +18,11 @@
     "name": "Billy Adams",
     "email": "billy@martin.com",
     "password": "123456" 
+  },
+  "required":{
+    "name": "Jonny Bravo",
+    "email": "Jonny@martin.com",
+    "password": "123456" 
   }
 }
 

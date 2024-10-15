@@ -13,6 +13,7 @@ module.exports = defineConfig({
       // implement node event listeners here
       configurePlugin(on);
     },
+    
     watchForFileChanges: false,
     baseUrl: 'http://localhost:5000/api'
   },
