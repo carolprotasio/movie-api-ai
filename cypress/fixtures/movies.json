@@ -1,0 +1,31 @@
+{
+  "create": {
+      "title": "A Grande Aventura",
+      "director": "Carlos Silva",
+      "year": 2021,
+      "genre": "Aventura",
+      "description": "Um grupo de amigos embarca em uma jornada épica para encontrar um tesouro perdido."
+  },
+  "duplicate": {
+      "title": "Mistério na Floresta",
+      "director": "Ana Pereira",
+      "year": 2020,
+      "genre": "Mistério",
+      "description": "Um detetive é chamado para resolver um crime misterioso em uma floresta isolada."
+  },
+  "update": {
+      "title": "Romance à Distância",
+      "director": "Pedro Gomes",
+      "year": 2019,
+      "genre": "Romance",
+      "description": "Dois amantes tentam manter seu relacionamento vivo enquanto vivem em cidades diferentes."
+  },
+  "delete":{
+      "title": "Futuro Incerto",
+      "director": "Luiza Costa",
+      "year": 2022,
+      "genre": "Ficção Científica",
+      "description": "Em um mundo pós-apocalíptico, um grupo luta pela sobrevivência em meio a novas ameaças."
+  }
+}
+

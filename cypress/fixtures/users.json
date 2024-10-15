@@ -1,0 +1,23 @@
+{
+  "create": {    
+        "name": "Rick Martin",
+        "email": "rick@martin.com",
+        "password": "123456"      
+  },
+  "duplicate": {
+    "name": "Davis Travis",
+    "email": "travis@qa.com",
+    "password": "123456" 
+  },
+  "update": {
+    "name": "Marry Morroe",
+    "email": "morroe@gmail.com",
+    "password": "123456" 
+  },
+  "delete":{
+    "name": "Billy Adams",
+    "email": "billy@martin.com",
+    "password": "123456" 
+  }
+}
+
