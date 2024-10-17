@@ -1,4 +1,4 @@
-describe('CRUD /user - functionallity', () => {
+describe('CRUD /user - functionality', () => {
 
   beforeEach(function () {
     cy.fixture('users').then(function (users) {

@@ -1,4 +1,4 @@
-describe('CRUD / movie - functionallity', () => {
+describe('CRUD / movie - functionality', () => {
 
   beforeEach(function () {
     cy.fixture('movies').then(function (movies) {

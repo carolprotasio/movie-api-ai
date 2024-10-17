@@ -1,4 +1,4 @@
-describe('POST /register - functionallity', () => {
+describe('POST /register - functionality', () => {
 
   beforeEach(function () {
     cy.fixture('users').then(function (users) {
