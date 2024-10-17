@@ -23,6 +23,35 @@
     "name": "Jonny Bravo",
     "email": "Jonny@martin.com",
     "password": "123456" 
+  },
+  "login":{
+    "name": "Aretta Brandy",
+    "email": "brandy@martin.com",
+    "password": "123456" 
+  },
+  "invalid_pass":{    
+    "email": "brandy@martin.com",
+    "password": "invalid" 
+  },
+  "invalid_email":{    
+    "email": "brandy.martin.com",
+    "password": "123456" 
+  },
+  "get_user":{
+    "name": "Brandy Bill",
+    "email": "bill@hotmail.com",
+    "password": "123456" 
+  },
+  "put_user":{
+    "name": "James Blond",
+    "email": "blond@gmail.com",
+    "password": "123456" 
+  },
+  "delete_user":{
+    "name": "Marcos Antony",
+    "email": "antony@uol.com",
+    "password": "123456" 
   }
+
 }
 

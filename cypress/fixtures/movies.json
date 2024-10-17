@@ -1,31 +1,90 @@
 {
-  "create": {
+    "create_movie": {
       "title": "A Grande Aventura",
       "director": "Carlos Silva",
       "year": 2021,
       "genre": "Aventura",
       "description": "Um grupo de amigos embarca em uma jornada épica para encontrar um tesouro perdido."
-  },
-  "duplicate": {
+    },
+    "duplicate_movie": {
       "title": "Mistério na Floresta",
       "director": "Ana Pereira",
       "year": 2020,
       "genre": "Mistério",
       "description": "Um detetive é chamado para resolver um crime misterioso em uma floresta isolada."
-  },
-  "update": {
+    },
+    "update_movie": {
       "title": "Romance à Distância",
       "director": "Pedro Gomes",
       "year": 2019,
       "genre": "Romance",
       "description": "Dois amantes tentam manter seu relacionamento vivo enquanto vivem em cidades diferentes."
-  },
-  "delete":{
+    },
+    "delete": {
       "title": "Futuro Incerto",
       "director": "Luiza Costa",
       "year": 2022,
       "genre": "Ficção Científica",
       "description": "Em um mundo pós-apocalíptico, um grupo luta pela sobrevivência em meio a novas ameaças."
+    },
+    "required_movie": {
+      "title": "O Último Herói",
+      "director": "Marcos Almeida",
+      "year": 2023,
+      "genre": "Ação",
+      "description": "Um ex-soldado luta contra uma organização criminosa para proteger sua cidade."
+    },
+    "get_movie": {
+      "title": "A Jornada do Herói",
+      "director": "Lucas Ferreira",
+      "year": 2021,
+      "genre": "Aventura",
+      "description": "Um jovem sonhador parte em uma missão para salvar seu reino da escuridão."
+    },
+    "get_movie2": {
+      "title": "O Segredo do Lago",
+      "director": "Clara Gomes",
+      "year": 2020,
+      "genre": "Fantasia",
+      "description": "Uma garota descobre um lago mágico que a leva a um mundo encantado."
+    },
+    "put_movie": {
+      "title": "Sombra da Verdade",
+      "director": "Ricardo Martins",
+      "year": 2022,
+      "genre": "Thriller",
+      "description": "Um jornalista investiga uma conspiração que pode mudar o destino do país."
+    },
+    "title_required": {
+      "director": "Ricardo Martins",
+      "year": 2022,
+      "genre": "Thriller",
+      "description": "Um jornalista investiga uma conspiração que pode mudar o destino do país."
+    },
+    "director_required": {
+      "title": "O Enigma da Cidade",
+      "year": 2023,
+      "genre": "Aventura",
+      "description": "Um grupo de amigos descobre segredos em uma cidade cheia de mistérios."
+    },
+    "year_required": {
+      "title": "A Dança das Sombras",
+      "director": "Juliana Souza",
+      "genre": "Drama",
+      "description": "Uma bailarina enfrenta desafios para alcançar seu sonho."
+    },
+    "genre_required": {
+      "title": "Luz e Sombra",
+      "director": "Marcos Almeida",
+      "year": 2021,
+      "description": "Um fotógrafo captura a beleza do mundo enquanto lida com seus próprios demônios."
+    },
+    "description_required": {
+      "title": "O Último Destino",
+      "director": "Sofia Lima",
+      "year": 2022,
+      "genre": "Ação"
+    },
+    "empty_field": {}
   }
-}
-
+  

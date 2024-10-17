@@ -20,9 +20,26 @@ const authenticateToken = (req, res, next) => {
 router.post('/movie', authenticateToken, async (req, res) => {
     const { title, director, year, genre, description } = req.body;
 
-    if (!title || !director || !year || !genre || !description) {
+    if (!title && !director && !year && !genre && !description) {
         return res.status(400).json({ message: 'All fields are required' });
     }
+    if (!title) {
+        return res.status(400).json({ message: 'title is required' });
+    }
+    if (!director) {
+        return res.status(400).json({ message: 'director is required' });
+    }
+    if (!year) {
+        return res.status(400).json({ message: 'year is required' });
+    }
+    if (!genre) {
+        return res.status(400).json({ message: 'genre is required' });
+    }
+    if (!description) {
+        return res.status(400).json({ message: 'description is required' });
+    }
+
+   
 
     try {
         const movie = new Movie({ ...req.body, user: req.userId });
